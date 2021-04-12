@@ -1,0 +1,26 @@
+baseURL : "https://bitsandbytes.github.io"
+languageCode : "en-us"
+title : "Warm journeys of bits and bytes"
+theme : "hugo-tania"
+
+params:
+  # titleEmoji: '😎'
+  socialOptions:
+    github: 
+    twitter: 
+
+menu:
+  header:
+    - name: About
+      url: "/about/"
+  footer:
+    - name: Github
+      url: "https://github.com/OzanOcak"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true

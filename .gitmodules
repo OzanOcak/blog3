@@ -1,0 +1,7 @@
+[submodule "themes/hugo-tania"]
+	path = themes/hugo-tania
+	url = https://github.com/WingLim/hugo-tania
+[submodule "public"]
+	path = public
+	url = https://github.com/OzanOcak/bitsandbytes.github.io.git
+	branch = main
