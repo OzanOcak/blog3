@@ -73,7 +73,7 @@ hugo
 git status
 git add .
 git commit -m "some changes"
-push -u origin main
+git push -u origin main
 ```
 To see the changes in local host we need to use -D flag because the files as default are draft which are not appear in localhost.
 
