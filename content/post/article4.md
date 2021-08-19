@@ -7,6 +7,7 @@ tags: [
     "kernel",
     "linux",
 ]
+series : ["kernel development"]
 ---
 
 <h5>Kernel boot process preparation</h5>

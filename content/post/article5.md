@@ -1,5 +1,5 @@
 ---
-title: "Writing a simple Linux Kernel on Armv8 - 4"
+title: "Writing a simple Linux Kernel on Armv8 -4 "
 date: 2021-05-26T00:10:56-04:00
 author: "ozan ocak"
 tags: [
@@ -7,6 +7,7 @@ tags: [
     "kernel",
     "linux",
 ]
+series : ["kernel development"]
 ---
 <h5>GPIO of Arm</h5>
 

@@ -7,6 +7,7 @@ tags: [
     "kernel",
     "linux",
 ]
+series : ["kernel development"]
 ---
 
 This is a documentation of writing bare operating system on hardware specifically on raspberry pi. This doc originally developed by Sergey Matyukevich then created another tutorial upon original project by Rocky Pulley.

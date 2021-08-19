@@ -7,6 +7,7 @@ tags: [
     "docker",
     "linux",
 ]
+series : ["kernel development"]
 ---
 <h3>Setting up aarch64 platform within docker container on x86 architecture</h3>
 
