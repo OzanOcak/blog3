@@ -83,22 +83,43 @@ tar -xzvf files.tgz  // to extract them
 
 ## cURL
 
-```console
-
-curl localhost:3000/dogs  //implicit get request
-curl localhost:3000/dogs -X GET  // -o /folder/x.html
+```sh
+curl localhost:3000/dogs  #implicit get request
+curl localhost:3000/dogs -X GET  # -o /folder/x.html
 curl localhost:3000/dogs -X POST -d '{"name":"erbash", "bred":"bulldog"}' -H 'content-type: application/json'
-echo $? // to check if returns 0
+echo $? # to check if returns 0
 
-vim data.json // {"name":"jojo","bred":"papillion"}
+vim data.json # {"name":"jojo","bred":"papillion"}
 curl localhost:3000/dogs -d @data.json -H 'content-type: application/json'  // -v (verbose)
-curl localhost:3000/dogs -o /dev/dogs/data  // -w '%{response_code}'
+curl localhost:3000/dogs -o /dev/dogs/data  # -w '%{response_code}'
 
-curl -v localhost:8080/admin // with verbose will get 401 not authorized
+curl -v localhost:8080/admin # with verbose will get 401 not authorized
 curl localhost:8080/admin -u admin:secret_psswd   username:password
-curl -I localhost:3000/dogs -X GET  // -I to get header, -L to redirect
+curl -I localhost:3000/dogs -X GET  # -I to get header, -L to redirect
 
 curl localhost:3000/dogs -X GET  -o /folder/x.html
+```
 
-curl localhost:3000/dogs -X GET  -v // you can read all the handshakes,certificates and html
+### update
+
+```sh
+curl localhost:8000/users/3 -X PUT -d '{"first_name":"tom","last_name":"cruse"}' -H 'content-type:application/json'
+```
+
+### get
+
+```sh
+curl localhost:3000/dogs -X GET  -v # you can read all the handshakes,certificates and html
+```
+
+### update
+
+```sh
+curl localhost:8000/users/3 -X PUT -d '{"first_name":"tom","last_name":"cruse"}' -H 'content-type:application/json'
+```
+
+### delete
+
+```sh
+curl localhost:8000/users/3 -X DELETE
 ```
