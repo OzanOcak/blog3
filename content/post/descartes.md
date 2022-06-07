@@ -1,5 +1,5 @@
 ---
-title: "Descartes and Necessity of Spread Operator "
+title: "Memory Management in JavaScript and Necessity of Spread Operator in React"
 date: 2022-06-06T00:05:06-04:00
 author: "ozan ocak"
 tags: ["react", "js", "memory management"]
