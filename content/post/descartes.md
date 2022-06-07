@@ -1,3 +1,10 @@
+---
+title: "Descartes and Necessity of Spread Operator "
+date: 2022-06-06T00:05:06-04:00
+author: "ozan ocak"
+tags: ["react", "js", "memory management"]
+---
+
 ## Descartes and Necessity of Spread Operator
 
 Descartes believed dualism of mind and body, they couldn't have the same origin since while body is divisible, mind is not, which means they have at least one difference.
@@ -27,4 +34,4 @@ try {
 This is an async updating data operation; the updated data is assigned to response.
 in the second line we map all the posts one by one to find the updated post's id, if we find id we can update it, but as mentioned, we are passing exact data itself by reference, response is just a tag. that's where spread operator comes to play and duplicate the state now react can render the dom.
 
-It is like a computer and electricity that gives mind to the computer. While computer is made of transistors, metals,cables and plastics. Electricity is moving sub atomic particles is assumably exist, forming the energy around and giving it back later. Descartes might be right that body and mind could be dual ...
+It is like a computer and electricity that gives mind to the computer. While computer is made of transistors, metals,cables and plastics. Electricity is moving sub atomic particles is assumably exist, forming the energy around and giving it back later. Descartes might be right that body and mind could be dual...
