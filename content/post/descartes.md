@@ -7,8 +7,8 @@ tags: ["react", "js", "memory management"]
 
 ## Descartes and Necessity of Spread Operator
 
-Descartes believed dualism of mind and body, they couldn't have the same origin since while body is divisible, mind is not, which means they have at least one difference.
-Let's think the two same pencils are produced in the factory, everything are the same but they are positions so they are not exactly same. if everything would be same , they come together and become one single object.
+Descartes believed dualism of mind and body,he thought they couldn't have the same origin since body is divisible,while mind is not; only one difference was enough to make two different objects.
+Let's think the two same pencils are produced in the factory, everything are the same but their positions in the world so they are not exactly same. if everything would be same , they would come together and become one single object.
 
 ```js
 [1, 2, 3] === [1, 2, 3]
@@ -16,10 +16,10 @@ Let's think the two same pencils are produced in the factory, everything are the
   : console.log("they are not same");
 ```
 
-Above code snippet is exact replicate of two pencils thought. Javascript Engine located in the browsers is a compiler of the javascript language that handle memory management and garbage collection. Since javascript is dynamically typed language, when below code
+Above code snippet is exact replicate of two pencils thought. Javascript Engine located in the browsers is a compiler of the javascript language that handle memory management and garbage collection. Since javascript is dynamically typed language, when above code
 is executed, the engine dynamically allocate two same arrays in a different locations and eventually the code will return **they are not same**.
 
-Javascript has many logical design errors and typescript doesn't catch them. This same but actually different objects are one of them. I recently learned react.js and the react library relies on keeping states in every steps. Then they compare to values of the states, if there is change, they will update and render the virtual virtual dom .
+Javascript has some problems because of the design of the language and even typescript doesn't catch them. The same value but actually different objects are one of them. I recently learned react.js and the react library relies on creating a new states in every steps. Then they compare to values of the states, if there is change, they will update and render the virtual virtual dom .
 
 The problem is if we pass an array or an object which is also dynamically allocated in heap by the engine, react library will not recognize any change because they will pass by reference since they are allocated in the heap.
 
