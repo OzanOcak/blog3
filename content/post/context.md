@@ -1,5 +1,5 @@
 ---
-title: "The language with two null pointers"
+title: "React Hooks in Next.js"
 date: 2022-08-16T00:05:06-04:00
 author: "ozan ocak"
 tags: ["js", "next.js", "state management", "react hooks"]
