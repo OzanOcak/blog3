@@ -5,4 +5,6 @@ author: "ozan ocak"
 tags: ["react", "redux"]
 ---
 
-![redux](redux.png)
+![redux](img/redux.png)
+
+![node.js](backend_drawing.png)
